@@ -1,0 +1,27 @@
+This project uses the Penn-Fudan Pedestrian Detection and Segmentation Dataset.
+
+The dataset contains:
+
+170 pedestrian images.
+
+345 annotated pedestrian instances.
+
+RGB images.
+
+Pixel-level pedestrian segmentation masks.
+
+Annotations that can be used to derive bounding boxes.
+
+Dataset Download
+
+PennFudanPed Dataset – Kaggle
+
+Original Penn-Fudan Dataset – University of Pennsylvania
+
+The dataset contains three main directories:
+
+PennFudanPed/
+
+├── PNGImages/       # Original pedestrian images
+├── PedMasks/        # Instance segmentation masks
+└── Annotation/      # Image annotations
